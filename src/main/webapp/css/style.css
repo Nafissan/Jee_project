@@ -1,0 +1,44 @@
+.btn-custom {
+            background-color: #007bff;
+            color: white;
+        }
+        .btn-custom:hover {
+            background-color: #0056b3;
+        }
+        .footer {
+            background-color: #f8f9fa;
+            padding: 20px 0;
+            text-align: center;
+            border-top: 1px solid #e7e7e7;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .table-container {
+            margin-top: 20px;
+        }
+        .table th, .table td {
+            text-align: center;
+        }
+        .card-header {
+            background-color: #343a40;
+            color: white;
+        }
+        .modal-content {
+            background-color: #f8f9fa;
+        }
+        .fixed-header {
+            background-color: #343a40;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            margin-bottom: 20px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        .content {
+            margin-top: 100px; /* Adjust this value if the fixed header height changes */
+            padding-bottom: 60px; /* Space for the fixed footer */
+        }
